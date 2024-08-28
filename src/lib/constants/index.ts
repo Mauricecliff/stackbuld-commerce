@@ -1,0 +1,2 @@
+export const APP_NAME = process.env.NEXT_PUBLIC_APP_NAME || 'stackbuld-commerce';
+export const APP_DESCRIPTION = process.env.NEXT_PUBLIC_APP_DESCRIPTION || 'A stackbuld ecommerce website built with Next Js, Postgress, Shadcn Ui and  Typescript'
