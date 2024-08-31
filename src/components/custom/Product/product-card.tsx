@@ -6,6 +6,7 @@ import {
     CardHeader,
   } from "@/components/ui/card"
 import { Product } from "../../../../types";
+import ProductPrice from "./product-price";
   
 
   const ProductCard = ({product}: {product: Product}) => {
@@ -34,7 +35,8 @@ import { Product } from "../../../../types";
           <div className="flex-between gap-4">
            <p>{product.rating} starts</p>
            {product.stock > 0 ? (
-             <p className="font-bold">${product.price}</p>
+            <ProductPrice priceValue={Number(product.price)} />
+            //  <p className="font-bold">${product.price}</p>
            ) : (
             <p className="text-destructive">Out of stock</p>
            )}

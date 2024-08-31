@@ -1,6 +1,7 @@
+import Footer from "@/components/custom/footer";
+import Header from "@/components/custom/Header";
 import React from "react";
-import Header from "@/lib/custom/Header";
-import Footer from "@/lib/custom/footer";
+
 
 export default function RootLayout({
   children
