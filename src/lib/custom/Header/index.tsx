@@ -17,7 +17,6 @@ const Header = async() => {
                height={48}
                alt={`${APP_NAME} logo`}
              />
-              {APP_NAME}
              </Link>
            </div>
            <div className='space-x-2'>
